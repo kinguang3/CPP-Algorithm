@@ -1,0 +1,13 @@
+1.取消cin,cout的时间
+
+ios::sync_with_stdio(false);
+cin.tie(nullptr);
+cout.tie(nullptr);
+
+
+
+2.宏定义
+
+#define ll long long
+#define x first
+#define y second

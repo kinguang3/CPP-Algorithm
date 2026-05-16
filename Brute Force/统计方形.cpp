@@ -5,6 +5,7 @@ int main(){
     long long n, m;
     cin >> n >> m;
     
+
     long long squares = 0;
     long long min_dim = min(n, m);
     for(long long k = 1; k <= min_dim; k++) {
